@@ -10,12 +10,12 @@ public static class Money
         if (value < 0)
             return 0;
 
-        var text = value.ToString("N2").Replace(",","").Replace(".", "");
+        var valor = value.ToString("N2").Replace(",","").Replace(".", "");
 
-        if (string.IsNullOrEmpty(text))
+        if (string.IsNullOrEmpty(valor))
             return 0;
 
-        int.TryParse(text, out var result);
+        int.TryParse(valor, out var result);
         return result;
 
     }
