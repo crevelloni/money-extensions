@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>MoneyExtensionsByCrevelloni</PackageId>
+    <PackageId>MoneyExtensionByCrevelloni</PackageId>
     <Version>1.0.1</Version>
     <Licence>MIT</Licence>
     <Authors>Thiago_Crevelloni</Authors>
